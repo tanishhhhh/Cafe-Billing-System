@@ -1,0 +1,14 @@
+C:\Users\HP\source\repos\Cafeeeeeeeeeeeeeeeeeeeeeeee\Cafeeeeeeeeeeeeeeeeeeeeeeee\bin\Debug\Cafeeeeeeeeeeeeeeeeeeeeeeee.exe.config
+C:\Users\HP\source\repos\Cafeeeeeeeeeeeeeeeeeeeeeeee\Cafeeeeeeeeeeeeeeeeeeeeeeee\bin\Debug\Cafeeeeeeeeeeeeeeeeeeeeeeee.exe
+C:\Users\HP\source\repos\Cafeeeeeeeeeeeeeeeeeeeeeeee\Cafeeeeeeeeeeeeeeeeeeeeeeee\bin\Debug\Cafeeeeeeeeeeeeeeeeeeeeeeee.pdb
+C:\Users\HP\source\repos\Cafeeeeeeeeeeeeeeeeeeeeeeee\Cafeeeeeeeeeeeeeeeeeeeeeeee\obj\Debug\Cafeeeeeeeeeeeeeeeeeeeeeeee.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\Cafeeeeeeeeeeeeeeeeeeeeeeee\Cafeeeeeeeeeeeeeeeeeeeeeeee\obj\Debug\Cafeeeeeeeeeeeeeeeeeeeeeeee.Form1.resources
+C:\Users\HP\source\repos\Cafeeeeeeeeeeeeeeeeeeeeeeee\Cafeeeeeeeeeeeeeeeeeeeeeeee\obj\Debug\Cafeeeeeeeeeeeeeeeeeeeeeeee.Properties.Resources.resources
+C:\Users\HP\source\repos\Cafeeeeeeeeeeeeeeeeeeeeeeee\Cafeeeeeeeeeeeeeeeeeeeeeeee\obj\Debug\Cafeeeeeeeeeeeeeeeeeeeeeeee.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\Cafeeeeeeeeeeeeeeeeeeeeeeee\Cafeeeeeeeeeeeeeeeeeeeeeeee\obj\Debug\Cafeeeeeeeeeeeeeeeeeeeeeeee.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Cafeeeeeeeeeeeeeeeeeeeeeeee\Cafeeeeeeeeeeeeeeeeeeeeeeee\obj\Debug\Cafeeeeeeeeeeeeeeeeeeeeeeee.exe
+C:\Users\HP\source\repos\Cafeeeeeeeeeeeeeeeeeeeeeeee\Cafeeeeeeeeeeeeeeeeeeeeeeee\obj\Debug\Cafeeeeeeeeeeeeeeeeeeeeeeee.pdb
+C:\Users\HP\source\repos\Cafeeeeeeeeeeeeeeeeeeeeeeee\Cafeeeeeeeeeeeeeeeeeeeeeeee\obj\Debug\Cafeeeeeeeeeeeeeeeeeeeeeeee.ItemsForm.resources
+C:\Users\HP\source\repos\Cafeeeeeeeeeeeeeeeeeeeeeeee\Cafeeeeeeeeeeeeeeeeeeeeeeee\obj\Debug\Cafeeeeeeeeeeeeeeeeeeeeeeee.UserOrderForm.resources
+C:\Users\HP\source\repos\Cafeeeeeeeeeeeeeeeeeeeeeeee\Cafeeeeeeeeeeeeeeeeeeeeeeee\obj\Debug\Cafeeeeeeeeeeeeeeeeeeeeeeee.OrderViewForm.resources
+C:\Users\HP\source\repos\Cafeeeeeeeeeeeeeeeeeeeeeeee\Cafeeeeeeeeeeeeeeeeeeeeeeee\obj\Debug\Cafeeeeeeeeeeeeeeeeeeeeeeee.UsersForm.resources

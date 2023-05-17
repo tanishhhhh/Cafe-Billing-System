@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="BillBillDataSet2" targetNamespace="http://tempuri.org/BillBillDataSet2.xsd" xmlns:mstns="http://tempuri.org/BillBillDataSet2.xsd" xmlns="http://tempuri.org/BillBillDataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="BillBillConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="BillBillConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Cafeeeeeeeeeeeeeeeeeeeeeeee.Properties.Settings.GlobalReference.Default.BillBillConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_UserOrderTableAdapter" GeneratorDataComponentClassName="View_UserOrderTableAdapter" Name="View_UserOrder" UserDataComponentName="View_UserOrderTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="BillBillConnectionString (Settings)" DbObjectName="BillBill.dbo.View_UserOrder" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT UserOrderId, OrderNo, SellerName, AddedDate, AddedBy, UpdatedDate, UpdatedBy FROM dbo.View_UserOrder</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="UserOrderId" DataSetColumn="UserOrderId" />
+              <Mapping SourceColumn="OrderNo" DataSetColumn="OrderNo" />
+              <Mapping SourceColumn="SellerName" DataSetColumn="SellerName" />
+              <Mapping SourceColumn="AddedDate" DataSetColumn="AddedDate" />
+              <Mapping SourceColumn="AddedBy" DataSetColumn="AddedBy" />
+              <Mapping SourceColumn="UpdatedDate" DataSetColumn="UpdatedDate" />
+              <Mapping SourceColumn="UpdatedBy" DataSetColumn="UpdatedBy" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="BillBillDataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="BillBillDataSet2" msprop:Generator_UserDSName="BillBillDataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="View_UserOrder" msprop:Generator_TableClassName="View_UserOrderDataTable" msprop:Generator_TableVarName="tableView_UserOrder" msprop:Generator_TablePropName="View_UserOrder" msprop:Generator_RowDeletingName="View_UserOrderRowDeleting" msprop:Generator_RowChangingName="View_UserOrderRowChanging" msprop:Generator_RowEvHandlerName="View_UserOrderRowChangeEventHandler" msprop:Generator_RowDeletedName="View_UserOrderRowDeleted" msprop:Generator_UserTableName="View_UserOrder" msprop:Generator_RowChangedName="View_UserOrderRowChanged" msprop:Generator_RowEvArgName="View_UserOrderRowChangeEvent" msprop:Generator_RowClassName="View_UserOrderRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UserOrderId" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnUserOrderId" msprop:Generator_ColumnPropNameInRow="UserOrderId" msprop:Generator_ColumnPropNameInTable="UserOrderIdColumn" msprop:Generator_UserColumnName="UserOrderId" type="xs:int" />
+              <xs:element name="OrderNo" msprop:Generator_ColumnVarNameInTable="columnOrderNo" msprop:Generator_ColumnPropNameInRow="OrderNo" msprop:Generator_ColumnPropNameInTable="OrderNoColumn" msprop:Generator_UserColumnName="OrderNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SellerName" msprop:Generator_ColumnVarNameInTable="columnSellerName" msprop:Generator_ColumnPropNameInRow="SellerName" msprop:Generator_ColumnPropNameInTable="SellerNameColumn" msprop:Generator_UserColumnName="SellerName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AddedDate" msprop:Generator_ColumnVarNameInTable="columnAddedDate" msprop:Generator_ColumnPropNameInRow="AddedDate" msprop:Generator_ColumnPropNameInTable="AddedDateColumn" msprop:Generator_UserColumnName="AddedDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="AddedBy" msprop:Generator_ColumnVarNameInTable="columnAddedBy" msprop:Generator_ColumnPropNameInRow="AddedBy" msprop:Generator_ColumnPropNameInTable="AddedByColumn" msprop:Generator_UserColumnName="AddedBy" type="xs:int" minOccurs="0" />
+              <xs:element name="UpdatedDate" msprop:Generator_ColumnVarNameInTable="columnUpdatedDate" msprop:Generator_ColumnPropNameInRow="UpdatedDate" msprop:Generator_ColumnPropNameInTable="UpdatedDateColumn" msprop:Generator_UserColumnName="UpdatedDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="UpdatedBy" msprop:Generator_ColumnVarNameInTable="columnUpdatedBy" msprop:Generator_ColumnPropNameInRow="UpdatedBy" msprop:Generator_ColumnPropNameInTable="UpdatedByColumn" msprop:Generator_UserColumnName="UpdatedBy" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
